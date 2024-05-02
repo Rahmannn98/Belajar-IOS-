@@ -10,10 +10,11 @@
 		040E15982BE381E80050B388 /* ProjectkuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E15972BE381E80050B388 /* ProjectkuApp.swift */; };
 		040E159A2BE381E80050B388 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E15992BE381E80050B388 /* ContentView.swift */; };
 		040E159C2BE381E90050B388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040E159B2BE381E90050B388 /* Assets.xcassets */; };
-		040E159F2BE381E90050B388 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040E159E2BE381E90050B388 /* Preview Assets.xcassets */; };
 		040E15A92BE381E90050B388 /* ProjectkuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E15A82BE381E90050B388 /* ProjectkuTests.swift */; };
 		040E15B32BE381E90050B388 /* ProjectkuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E15B22BE381E90050B388 /* ProjectkuUITests.swift */; };
 		040E15B52BE381E90050B388 /* ProjectkuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E15B42BE381E90050B388 /* ProjectkuUITestsLaunchTests.swift */; };
+		04D6F4C82BE38E9F00E92143 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6F4C72BE38E9F00E92143 /* CircleImage.swift */; };
+		04D6F4CA2BE39B6300E92143 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6F4C92BE39B6300E92143 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +39,13 @@
 		040E15972BE381E80050B388 /* ProjectkuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectkuApp.swift; sourceTree = "<group>"; };
 		040E15992BE381E80050B388 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		040E159B2BE381E90050B388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		040E159E2BE381E90050B388 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		040E15A42BE381E90050B388 /* ProjectkuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectkuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040E15A82BE381E90050B388 /* ProjectkuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectkuTests.swift; sourceTree = "<group>"; };
 		040E15AE2BE381E90050B388 /* ProjectkuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectkuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040E15B22BE381E90050B388 /* ProjectkuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectkuUITests.swift; sourceTree = "<group>"; };
 		040E15B42BE381E90050B388 /* ProjectkuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectkuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04D6F4C72BE38E9F00E92143 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		04D6F4C92BE39B6300E92143 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,18 +98,11 @@
 			children = (
 				040E15972BE381E80050B388 /* ProjectkuApp.swift */,
 				040E15992BE381E80050B388 /* ContentView.swift */,
+				04D6F4C72BE38E9F00E92143 /* CircleImage.swift */,
+				04D6F4C92BE39B6300E92143 /* MapView.swift */,
 				040E159B2BE381E90050B388 /* Assets.xcassets */,
-				040E159D2BE381E90050B388 /* Preview Content */,
 			);
 			path = Projectku;
-			sourceTree = "<group>";
-		};
-		040E159D2BE381E90050B388 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				040E159E2BE381E90050B388 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		040E15A72BE381E90050B388 /* ProjectkuTests */ = {
@@ -231,7 +226,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040E159F2BE381E90050B388 /* Preview Assets.xcassets in Resources */,
 				040E159C2BE381E90050B388 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				040E159A2BE381E80050B388 /* ContentView.swift in Sources */,
+				04D6F4CA2BE39B6300E92143 /* MapView.swift in Sources */,
 				040E15982BE381E80050B388 /* ProjectkuApp.swift in Sources */,
+				04D6F4C82BE38E9F00E92143 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

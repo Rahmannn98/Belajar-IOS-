@@ -9,7 +9,11 @@ import SwiftUI
 
 struct SwiftUIView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("rahman")
+            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+        overlay{
+            Circle().stroke(. gray,lineWidth: 4)
+        }
     }
 }
 

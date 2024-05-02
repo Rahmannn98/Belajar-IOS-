@@ -9,7 +9,16 @@ import SwiftUI
 
 struct CircleImage: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("rahman")
+            .frame(height: 400)
+        
+            .clipShape( Circle())
+            .overlay {
+                Circle().stroke(.white, lineWidth : 7)
+            
+                
+            }
+            .shadow(radius:7)
     }
 }
 
